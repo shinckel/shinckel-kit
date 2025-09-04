@@ -1,0 +1,30 @@
+<!-- create html boilerplate: ! + tab -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- tells browser to use latest rendering engine available, legacy support -->
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Web Components</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      margin: 2rem;
+    }
+  </style>
+  <script src="modal.js"></script>
+</head>
+
+<body>
+  <sk-modal>
+    <p slot="main">Time to confirm your choices</p>
+  </sk-modal>
+</body>
+
+</html>
